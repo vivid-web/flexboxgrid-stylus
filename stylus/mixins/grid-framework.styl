@@ -1,0 +1,20 @@
+make-column($breakpoint, $columns)
+  .Grid__col--{$breakpoint}
+    for $number in 1..$columns
+      &{'-'} {$number}
+        width: (100 / 12 * $number) %
+        flex: none
+
+make-gutter()
+  .Grid--gutters
+    .Grid__col
+      padding: 1rem 0 0 1rem
+
+make-grid($breakpoints, $columns)
+  for $breakpoint, $width in $breakpoints
+    if $width == 0
+      make-column($breakpoint, $columns)
+    else
+      @media (min-width: $width)
+      make-gutter()
+      make-column($breakpoint, $columns)

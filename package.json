@@ -1,0 +1,20 @@
+{
+  "name": "flexbox-grid-stylus",
+  "version": "1.0.0",
+  "description": "A simple flexbox CSS grid system",
+  "main": "dist/flexbox-grid.min.css",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vivid-web/flexbox-grid-stylus.git"
+  },
+  "author": "Peter van Meijgaard <petervanmeijgaard@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-stylus": "^2.1.0"
+  }
+}

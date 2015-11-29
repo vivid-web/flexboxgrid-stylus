@@ -51,84 +51,84 @@ html {
       -ms-flex: 0 0 100%;
           flex: 0 0 100%;
 }
-.Grid__col--xs- 1 {
+.Grid__col--xs-1 {
   width: 8.333333333333334%;
   -webkit-box-flex: 0;
   -webkit-flex: none;
       -ms-flex: none;
           flex: none;
 }
-.Grid__col--xs- 2 {
+.Grid__col--xs-2 {
   width: 16.666666666666668%;
   -webkit-box-flex: 0;
   -webkit-flex: none;
       -ms-flex: none;
           flex: none;
 }
-.Grid__col--xs- 3 {
+.Grid__col--xs-3 {
   width: 25%;
   -webkit-box-flex: 0;
   -webkit-flex: none;
       -ms-flex: none;
           flex: none;
 }
-.Grid__col--xs- 4 {
+.Grid__col--xs-4 {
   width: 33.333333333333336%;
   -webkit-box-flex: 0;
   -webkit-flex: none;
       -ms-flex: none;
           flex: none;
 }
-.Grid__col--xs- 5 {
+.Grid__col--xs-5 {
   width: 41.66666666666667%;
   -webkit-box-flex: 0;
   -webkit-flex: none;
       -ms-flex: none;
           flex: none;
 }
-.Grid__col--xs- 6 {
+.Grid__col--xs-6 {
   width: 50%;
   -webkit-box-flex: 0;
   -webkit-flex: none;
       -ms-flex: none;
           flex: none;
 }
-.Grid__col--xs- 7 {
+.Grid__col--xs-7 {
   width: 58.333333333333336%;
   -webkit-box-flex: 0;
   -webkit-flex: none;
       -ms-flex: none;
           flex: none;
 }
-.Grid__col--xs- 8 {
+.Grid__col--xs-8 {
   width: 66.66666666666667%;
   -webkit-box-flex: 0;
   -webkit-flex: none;
       -ms-flex: none;
           flex: none;
 }
-.Grid__col--xs- 9 {
+.Grid__col--xs-9 {
   width: 75%;
   -webkit-box-flex: 0;
   -webkit-flex: none;
       -ms-flex: none;
           flex: none;
 }
-.Grid__col--xs- 10 {
+.Grid__col--xs-10 {
   width: 83.33333333333334%;
   -webkit-box-flex: 0;
   -webkit-flex: none;
       -ms-flex: none;
           flex: none;
 }
-.Grid__col--xs- 11 {
+.Grid__col--xs-11 {
   width: 91.66666666666667%;
   -webkit-box-flex: 0;
   -webkit-flex: none;
       -ms-flex: none;
           flex: none;
 }
-.Grid__col--xs- 12 {
+.Grid__col--xs-12 {
   width: 100%;
   -webkit-box-flex: 0;
   -webkit-flex: none;
@@ -139,84 +139,84 @@ html {
   .Grid--gutters .Grid__col {
     padding: 1rem 0 0 1rem;
   }
-  .Grid__col--sm- 1 {
+  .Grid__col--sm-1 {
     width: 8.333333333333334%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--sm- 2 {
+  .Grid__col--sm-2 {
     width: 16.666666666666668%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--sm- 3 {
+  .Grid__col--sm-3 {
     width: 25%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--sm- 4 {
+  .Grid__col--sm-4 {
     width: 33.333333333333336%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--sm- 5 {
+  .Grid__col--sm-5 {
     width: 41.66666666666667%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--sm- 6 {
+  .Grid__col--sm-6 {
     width: 50%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--sm- 7 {
+  .Grid__col--sm-7 {
     width: 58.333333333333336%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--sm- 8 {
+  .Grid__col--sm-8 {
     width: 66.66666666666667%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--sm- 9 {
+  .Grid__col--sm-9 {
     width: 75%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--sm- 10 {
+  .Grid__col--sm-10 {
     width: 83.33333333333334%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--sm- 11 {
+  .Grid__col--sm-11 {
     width: 91.66666666666667%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--sm- 12 {
+  .Grid__col--sm-12 {
     width: 100%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
@@ -228,84 +228,84 @@ html {
   .Grid--gutters .Grid__col {
     padding: 1rem 0 0 1rem;
   }
-  .Grid__col--md- 1 {
+  .Grid__col--md-1 {
     width: 8.333333333333334%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--md- 2 {
+  .Grid__col--md-2 {
     width: 16.666666666666668%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--md- 3 {
+  .Grid__col--md-3 {
     width: 25%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--md- 4 {
+  .Grid__col--md-4 {
     width: 33.333333333333336%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--md- 5 {
+  .Grid__col--md-5 {
     width: 41.66666666666667%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--md- 6 {
+  .Grid__col--md-6 {
     width: 50%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--md- 7 {
+  .Grid__col--md-7 {
     width: 58.333333333333336%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--md- 8 {
+  .Grid__col--md-8 {
     width: 66.66666666666667%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--md- 9 {
+  .Grid__col--md-9 {
     width: 75%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--md- 10 {
+  .Grid__col--md-10 {
     width: 83.33333333333334%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--md- 11 {
+  .Grid__col--md-11 {
     width: 91.66666666666667%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--md- 12 {
+  .Grid__col--md-12 {
     width: 100%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
@@ -317,84 +317,84 @@ html {
   .Grid--gutters .Grid__col {
     padding: 1rem 0 0 1rem;
   }
-  .Grid__col--lg- 1 {
+  .Grid__col--lg-1 {
     width: 8.333333333333334%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--lg- 2 {
+  .Grid__col--lg-2 {
     width: 16.666666666666668%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--lg- 3 {
+  .Grid__col--lg-3 {
     width: 25%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--lg- 4 {
+  .Grid__col--lg-4 {
     width: 33.333333333333336%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--lg- 5 {
+  .Grid__col--lg-5 {
     width: 41.66666666666667%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--lg- 6 {
+  .Grid__col--lg-6 {
     width: 50%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--lg- 7 {
+  .Grid__col--lg-7 {
     width: 58.333333333333336%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--lg- 8 {
+  .Grid__col--lg-8 {
     width: 66.66666666666667%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--lg- 9 {
+  .Grid__col--lg-9 {
     width: 75%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--lg- 10 {
+  .Grid__col--lg-10 {
     width: 83.33333333333334%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--lg- 11 {
+  .Grid__col--lg-11 {
     width: 91.66666666666667%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--lg- 12 {
+  .Grid__col--lg-12 {
     width: 100%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
@@ -406,84 +406,84 @@ html {
   .Grid--gutters .Grid__col {
     padding: 1rem 0 0 1rem;
   }
-  .Grid__col--xl- 1 {
+  .Grid__col--xl-1 {
     width: 8.333333333333334%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--xl- 2 {
+  .Grid__col--xl-2 {
     width: 16.666666666666668%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--xl- 3 {
+  .Grid__col--xl-3 {
     width: 25%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--xl- 4 {
+  .Grid__col--xl-4 {
     width: 33.333333333333336%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--xl- 5 {
+  .Grid__col--xl-5 {
     width: 41.66666666666667%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--xl- 6 {
+  .Grid__col--xl-6 {
     width: 50%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--xl- 7 {
+  .Grid__col--xl-7 {
     width: 58.333333333333336%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--xl- 8 {
+  .Grid__col--xl-8 {
     width: 66.66666666666667%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--xl- 9 {
+  .Grid__col--xl-9 {
     width: 75%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--xl- 10 {
+  .Grid__col--xl-10 {
     width: 83.33333333333334%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--xl- 11 {
+  .Grid__col--xl-11 {
     width: 91.66666666666667%;
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
   }
-  .Grid__col--xl- 12 {
+  .Grid__col--xl-12 {
     width: 100%;
     -webkit-box-flex: 0;
     -webkit-flex: none;

@@ -1,7 +1,7 @@
 make-column($breakpoint, $columns)
   .Grid__col--{$breakpoint}
     for $number in 1..$columns
-      &{'-'} {$number}
+      &{'-'}{$number}
         width: (100 / 12 * $number) %
         flex: none
 

@@ -61,7 +61,7 @@ gulp.task('docs-css', function () {
         .pipe(sourcemaps.init())
         .pipe(stylus())
         .pipe(prefix())
-        .pipe(minifyCss())
+        //.pipe(minifyCss())
         .pipe(rename('stylesheet.min.css'))
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('./docs/dist'));

@@ -1,0 +1,49 @@
+.section
+
+  +has(header)
+    padding-top: 2rem
+
+  +has(title)
+    text-align: center
+    margin-bottom: 1rem
+    font-size: 2rem
+    font-weight: 600
+
+  +has(subtitle)
+    font-weight: 100
+    font-size: 1.5rem
+    display: block
+    text-align: center
+
+  +has(underline)
+    width: 200px
+    height: 2px
+    display: block
+    margin: 1.5rem auto
+
+  +has(body)
+    padding: 2rem 0
+
+  +variant(dark)
+    background-color: #1a1a14
+
+    +has(title)
+      color: #e6e6e6
+
+    +has(underline)
+      background-color: #00aaed
+
+    +has(subtitle)
+      color: #e6e6e6
+
+  +variant(light)
+    background-color: #e6e6e6
+
+    +has(title)
+      color: #1a1a14
+
+    +has(underline)
+      background-color: #3bc7ff
+
+    +has(subtitle)
+      color: #1a1a14

@@ -1,9 +1,9 @@
-.Block
+.block
   overflow: hidden
   padding: 1rem
   width: 100%
 
-  &__content
+  +has(content)
     word-wrap: break-word
     overflow: hidden
     line-height: 1.5rem
@@ -15,19 +15,14 @@
     height: 0
     visibility: hidden
 
-.Section--dark
-  .Block
+  +variant(dark)
     background-color: rgba(255, 255, 255, 0.2)
 
-    &__content
+    +has(content)
       color: #e6e6e6
 
-.Section--light
-
-  .Block
+  +variant(light)
     background-color: rgba(0, 0, 0, 0.2)
 
-    &__content
+    +has(content)
       color: #1a1a14
-
-

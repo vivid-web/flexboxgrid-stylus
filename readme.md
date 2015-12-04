@@ -4,7 +4,7 @@ It is written in Stylus, a flexible and robust css preprocessor.
 
 The Flexbox Grid is written according the [BEM](http://getbem.com/) methodology
 
-For more information, visit [flexboxgrid.vivid-websolutions.nl](flexboxgrid.vivid-websolutions.nl)
+For more information, visit [flexboxgrid.vivid-websolutions.nl](http://flexboxgrid.vivid-websolutions.nl)
 
 ## Table of contents ##
  - [Installation](#installation)
@@ -31,7 +31,7 @@ $ npm install flexbox-grid-stylus
  - [Peter van Meijgaard](https://github.com/petervmeijgaard)
 
 ## More Information ##
-  -  [Documentation](flexboxgrid.vivid-websolutions.nl)
+  -  [Documentation](http://flexboxgrid.vivid-websolutions.nl)
 
 ## License ##
 The MIT License (MIT)

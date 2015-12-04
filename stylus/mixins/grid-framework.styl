@@ -1,20 +1,15 @@
 make-default()
   &
-    -webkit-box-flex: 1;
-    -webkit-flex-grow: 1;
-    -ms-flex-positive: 1;
     flex-grow: 1;
-    -webkit-flex-basis: 0;
-    -ms-flex-preferred-size: 0;
     flex-basis: 0;
     max-width: 100%;
-    padding: 1rem 0 0 1rem
+    padding: 1rem .5rem 0 .5rem
 
 // Function to create the offset
 make-offset($columns)
   for $number in 1..$columns
     &-offset-{$number}
-      margin-left : (100 / 12 * $number) %
+      margin-left: (100 / 12 * $number) %
 
 // Function to make a single column
 make-column($columns)
@@ -31,13 +26,6 @@ make-grid-column($breakpoint, $columns)
     make-column($columns)
     make-offset($columns)
 
-// Function to add the gutter
-make-gutter()
-  .grid__row--gutters
-    margin: -1rem 0 1rem -1rem
-    .grid__col
-      padding: 1rem 0 0 1rem
-
 // Function to initialize the grid
 make-grid($breakpoints, $columns)
   for $breakpoint, $width in $breakpoints
@@ -45,5 +33,4 @@ make-grid($breakpoints, $columns)
       make-grid-column($breakpoint, $columns)
     else
       @media (min-width: $width)
-        make-gutter()
         make-grid-column($breakpoint, $columns)

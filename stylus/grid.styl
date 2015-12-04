@@ -1,9 +1,10 @@
 // The Grid
 .grid
+  overflow: hidden
 
   +variant(fixed)
-    max-width: 100%
-    width: 1200px
+    width: 100%
+    max-width: 1200px
     margin: 0 auto
 
   +variant(flex-cols)
@@ -11,28 +12,25 @@
       display: flex
 
   +has(row)
+    box-sizing: border-box
     display: flex
     flex-wrap: wrap
+    flex-direction: row
     list-style: none
+    flex: 0 1 auto
     padding: 0
-    margin: 0
-    width: 100%
+    margin: -1rem -.5rem 1rem -.5rem
 
-    +variant(gutters)
-      margin: -1rem 0 1rem 0
-
-      .grid__row--gutters
-        margin: -1rem 0 1rem 0
-
-      .grid__col
-        padding: 1rem 0 0
+    +variant(no-gutters)
+      margin: 0
 
   +has(col)
+    box-sizing: border-box
     flex: 0 0 100%
+    padding: 1rem .5rem 0 .5rem
 
-
+    +variant(no-gutters)
+      padding: 0
 
 // The column system
-
-
 make-grid($breakpoints, $columns)

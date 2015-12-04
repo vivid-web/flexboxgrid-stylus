@@ -1,10 +1,11 @@
 doctype html
-head
-    title Flexbox Grid (Stylus)
-    meta(name='viewport',content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0')
-    link(rel='stylesheet', type='text/css', href='dist/stylesheet.min.css')
 html
+    head
+        title Flexbox Grid
+        meta(name='viewport',content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0')
+        link(rel='stylesheet', type='text/css', href='dist/stylesheet.min.css')
     body
+        include ./includes/header
         include ./includes/invidual-sizing
         include ./includes/gridception
         include ./includes/offset
@@ -18,3 +19,4 @@ html
         include ./includes/reverse
         include ./includes/auto-resize
         include ./includes/no-gutter
+        include ./includes/footer

@@ -1,11 +1,12 @@
 // The Grid
 .grid
+  box-sizing: border-box
   overflow: hidden
 
   +variant(fixed)
-    width: 100%
-    max-width: 1200px
     margin: 0 auto
+    max-width: 1200px
+    width: 100%
 
   +variant(flex-cols)
     .grid__col
@@ -14,12 +15,12 @@
   +has(row)
     box-sizing: border-box
     display: flex
-    flex-wrap: wrap
+    flex: 0 1 100%
     flex-direction: row
+    flex-wrap: wrap
     list-style: none
-    flex: 0 1 auto
-    padding: 0
     margin: -1rem -.5rem 1rem -.5rem
+    padding: 0
 
     +variant(no-gutters)
       margin: 0

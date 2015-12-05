@@ -1,17 +1,11 @@
 .grid {
   box-sizing: border-box;
-  overflow: hidden;
+  padding: 0 0.5rem;
 }
-.grid--fixed {
+.grid--container {
   margin: 0 auto;
   max-width: 1200px;
   width: 100%;
-}
-.grid--flex-cols .grid__col {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 .grid__row {
   box-sizing: border-box;
@@ -34,6 +28,9 @@
   list-style: none;
   margin: -1rem -0.5rem 1rem -0.5rem;
   padding: 0;
+}
+.grid__row:last-child {
+  margin-bottom: 0;
 }
 .grid__row--no-gutters {
   margin: 0;
@@ -85,6 +82,12 @@
   -webkit-flex-direction: row-reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
+}
+.grid__col--xs-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 .grid__col--xs {
   -webkit-box-flex: 1;
@@ -254,6 +257,12 @@
     -webkit-flex-direction: row-reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
+  }
+  .grid__col--sm-flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
   }
   .grid__col--sm {
     -webkit-box-flex: 1;
@@ -425,6 +434,12 @@
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
   }
+  .grid__col--md-flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
   .grid__col--md {
     -webkit-box-flex: 1;
     -webkit-flex-grow: 1;
@@ -595,6 +610,12 @@
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
   }
+  .grid__col--lg-flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
   .grid__col--lg {
     -webkit-box-flex: 1;
     -webkit-flex-grow: 1;
@@ -764,6 +785,12 @@
     -webkit-flex-direction: row-reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
+  }
+  .grid__col--xl-flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
   }
   .grid__col--xl {
     -webkit-box-flex: 1;

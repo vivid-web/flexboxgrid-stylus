@@ -27,6 +27,10 @@ make-reverse-helper($breakpoint)
   .grid__row--{$breakpoint}-reverse
     flex-direction: row-reverse;
 
+make-col-flexible($breakpoint)
+  .grid__col--{$breakpoint}-flex
+    display: flex;
+
 // Helper wrapper
 make-helpers($breakpoint)
   make-grid-top-helper($breakpoint)
@@ -35,3 +39,4 @@ make-helpers($breakpoint)
   make-first-col-helper($breakpoint)
   make-last-col-helper($breakpoint)
   make-reverse-helper($breakpoint)
+  make-col-flexible($breakpoint)

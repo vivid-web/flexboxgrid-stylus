@@ -31,6 +31,14 @@ make-col-flexible($breakpoint)
   .grid__col--{$breakpoint}-flex
     display: flex;
 
+make-text-helper($breakpoint)
+  .grid__text--{$breakpoint}-right
+    text-align: right;
+  .grid__text--{$breakpoint}-left
+    text-align: left;
+  .grid__text--{$breakpoint}-center
+    text-align: center;
+
 // Helper wrapper
 make-helpers($breakpoint)
   make-grid-top-helper($breakpoint)
@@ -40,3 +48,4 @@ make-helpers($breakpoint)
   make-last-col-helper($breakpoint)
   make-reverse-helper($breakpoint)
   make-col-flexible($breakpoint)
+  make-text-helper($breakpoint)

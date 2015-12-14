@@ -21,13 +21,13 @@ make-column($columns)
 // Function to create a full column
 make-grid-column($breakpoint, $columns)
   make-helpers($breakpoint)
-  .grid__col--{$breakpoint}
+  .col--{$breakpoint}
     make-default()
     make-column($columns)
     make-offset($columns)
 
 // Function to initialize the grid
-make-grid($breakpoints, $columns)
+init($breakpoints, $columns)
   for $breakpoint, $width in $breakpoints
     if $width == 0
       make-grid-column($breakpoint, $columns)

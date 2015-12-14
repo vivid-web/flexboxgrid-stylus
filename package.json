@@ -1,6 +1,6 @@
 {
   "name": "flexbox-grid-stylus",
-  "version": "2.2.0",
+  "version": "3.0.0",
   "description": "A simple flexbox CSS grid system",
   "main": "stylus/flexbox-grid.styl",
   "repository": {

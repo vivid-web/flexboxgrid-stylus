@@ -7,9 +7,11 @@ make-default()
 
 // Function to create the offset
 make-offset($columns)
+  &-offset-0
+    margin-left: 0
   for $number in 1..$columns
-    &-offset-{$number}
-      margin-left: (100 / 12 * $number) %
+      &-offset-{$number}
+        margin-left: (100 / 12 * $number) %
 
 // Function to make a single column
 make-column($columns)

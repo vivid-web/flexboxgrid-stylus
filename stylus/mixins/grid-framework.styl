@@ -11,13 +11,13 @@ make-offset($columns)
     margin-left: 0
   for $number in 1..$columns
       &-offset-{$number}
-        margin-left: (100 / 12 * $number) %
+        margin-left: (100 / $columns * $number) %
 
 // Function to make a single column
 make-column($columns)
   for $number in 1..$columns
     &{'-'}{$number}
-      width: (100 / 12 * $number) %
+      width: (100 / $columns * $number) %
       flex: none
 
 // Function to create a full column

@@ -2,7 +2,7 @@
   "name": "flexbox-grid-stylus",
   "version": "3.1.1",
   "description": "A simple flexbox CSS grid system",
-  "main": "stylus/flexbox-grid.styl",
+  "main": "dist/flexbox-grid.css",
   "authors": [
     "Vivid Websolutions <info@vivid-websolutions.nl>"
   ],
@@ -27,6 +27,8 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "docs",
+    "resources"
   ]
 }

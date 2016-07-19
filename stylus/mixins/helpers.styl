@@ -1,39 +1,39 @@
 // Helper for the grid align top
 make-row-helpers($breakpoint)
-  .Row--{$breakpoint}-top
+  .row--{$breakpoint}-top
     align-items: flex-start
-  .Row--{$breakpoint}-center
+  .row--{$breakpoint}-center
     align-items: center
-  .Row--{$breakpoint}-bottom
+  .row--{$breakpoint}-bottom
     align-items: flex-end
 
 // Helper for the sorting the first item
 make-col-helpers($breakpoint)
-  .Col--{$breakpoint}-align-top
+  .col--{$breakpoint}-align-top
     align-self: flex-start
-  .Col--{$breakpoint}-align-center
+  .col--{$breakpoint}-align-center
     align-self: center
-  .Col--{$breakpoint}-align-bottom
+  .col--{$breakpoint}-align-bottom
     align-self: flex-end
 
-  .Col--{$breakpoint}-first
+  .col--{$breakpoint}-first
     order: -1
-  .Col--{$breakpoint}-reset
+  .col--{$breakpoint}-reset
     order: 0
-  .Col--{$breakpoint}-last
+  .col--{$breakpoint}-last
     order: 1
-  .Row--{$breakpoint}-reverse
+  .row--{$breakpoint}-reverse
     flex-direction: row-reverse
-  .Col--{$breakpoint}-flex
+  .col--{$breakpoint}-flex
     display: flex
 
 // Helper for aligning the text
 make-text-helpers($breakpoint)
-  .Text--{$breakpoint}-right
+  .text--{$breakpoint}-right
     text-align: right
-  .Text--{$breakpoint}-left
+  .text--{$breakpoint}-left
     text-align: left
-  .Text--{$breakpoint}-center
+  .text--{$breakpoint}-center
     text-align: center
 
 // Helper wrapper

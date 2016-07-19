@@ -2,10 +2,15 @@
   "name": "flexbox-grid-stylus",
   "version": "3.1.1",
   "description": "A simple flexbox CSS grid system",
-  "main": "stylus/flexbox-grid.styl",
+  "main": "dist/flexbox-grid.css",
   "repository": {
     "type": "git",
     "url": "https://github.com/vivid-web/flexbox-grid-stylus.git"
+  },
+  "scripts": {
+    "build": "gulp",
+    "dist": "gulp build",
+    "docs": "gulp docs"
   },
   "keywords": [
     "vivid",
@@ -25,12 +30,12 @@
   "author": "Vivid Websolutions <info@vivid-websolutions.nl>",
   "license": "MIT",
   "devDependencies": {
-    "gulp": "^3.8.8",
+    "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
+    "gulp-clean-css": "^2.0.11",
     "gulp-jade": "^1.1.0",
-    "gulp-minify-css": "^1.2.1",
     "gulp-rename": "^1.2.2",
     "gulp-sourcemaps": "^1.6.0",
-    "gulp-stylus": "^2.1.0"
+    "gulp-stylus": "^2.5.0"
   }
 }

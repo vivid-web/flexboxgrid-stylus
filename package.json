@@ -10,7 +10,8 @@
   "scripts": {
     "build": "gulp",
     "dist": "gulp build",
-    "docs": "gulp docs"
+    "docs": "gulp docs",
+    "prepublish": "npm run build"
   },
   "keywords": [
     "vivid",

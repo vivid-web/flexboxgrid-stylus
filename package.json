@@ -1,9 +1,9 @@
 {
   "name": "flexbox-grid-stylus",
-  "version": "3.2.0",
+  "version": "3.2.1",
   "description": "A simple flexbox CSS grid system",
   "main": "dist/flexbox-grid.css",
-  "files" : [
+  "files": [
     "dist",
     "src"
   ],

@@ -10,7 +10,7 @@ var jade = require('gulp-jade');
 
 var directories = {
     stylus: {
-        input: './stylus/flexbox-grid.styl',
+        input: './src/flexbox-grid.styl',
         output: {
             folder: './dist',
             fileName: 'flexbox-grid.css'
@@ -24,7 +24,7 @@ var directories = {
         }
     },
     minify: {
-        input: './stylus/flexbox-grid.styl',
+        input: './src/flexbox-grid.styl',
         output: {
             folder: './dist',
             fileName: 'flexbox-grid.min.css'
@@ -56,18 +56,14 @@ gulp.task('dist-minify', function() {
         .pipe(gulp.dest(directories.minify.output.folder));
 });
 
+gulp.task('build', ['dist-css', 'dist-minify']);
+
 // Docs
 gulp.task('docs-fonts', function() {
     return gulp
-        .src(
-            [
-                './assets/fonts/**'
-            ]
-        )
+        .src(['./assets/fonts/**'])
         .pipe(gulp.dest('./docs/dist/fonts/'));
 });
-
-gulp.task('build', ['dist-css', 'dist-minify']);
 
 gulp.task('docs-css', function() {
     return gulp

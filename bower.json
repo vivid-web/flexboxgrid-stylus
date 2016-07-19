@@ -1,11 +1,11 @@
 {
   "name": "flexbox-grid-stylus",
-  "version": "3.1.1",
-  "description": "A simple flexbox CSS grid system",
-  "main": "dist/flexbox-grid.css",
+  "homepage": "http://flexboxgrid.vivid-websolutions.nl",
   "authors": [
     "Vivid Websolutions <info@vivid-websolutions.nl>"
   ],
+  "description": "A simple flexbox CSS grid system",
+  "main": "dist/flexbox-grid.css",
   "license": "MIT",
   "keywords": [
     "vivid",
@@ -28,7 +28,6 @@
     "bower_components",
     "test",
     "tests",
-    "docs",
-    "resources"
+    "docs"
   ]
 }

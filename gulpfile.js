@@ -17,7 +17,7 @@ var directories = {
         }
     },
     jade: {
-        input: './resources/jade/index.jade',
+        input: './assets/jade/index.jade',
         output: {
             folder: './docs',
             fileName: 'index.html'
@@ -61,7 +61,7 @@ gulp.task('docs-fonts', function() {
     return gulp
         .src(
             [
-                './resources/fonts/**'
+                './assets/fonts/**'
             ]
         )
         .pipe(gulp.dest('./docs/dist/fonts/'));
@@ -71,7 +71,7 @@ gulp.task('build', ['dist-css', 'dist-minify']);
 
 gulp.task('docs-css', function() {
     return gulp
-        .src(['./resources/stylus/stylesheet.styl'])
+        .src(['./assets/stylus/stylesheet.styl'])
         .pipe(sourcemaps.init())
         .pipe(stylus())
         .pipe(prefix())

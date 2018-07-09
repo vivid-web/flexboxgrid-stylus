@@ -1,6 +1,6 @@
 {
   "name": "@vivid-web/flexboxgrid-stylus",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "A simple flexbox CSS grid system",
   "main": "dist/flexboxgrid.css",
   "publishConfig": {
@@ -37,7 +37,7 @@
   "author": "Vivid Websolutions <info@vivid-websolutions.nl>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vivid-web/flexbox-grid-stylus/issues"
+    "url": "https://github.com/vivid-web/flexboxgrid-stylus/issues"
   },
   "homepage": "http://flexboxgrid.vivid-websolutions.nl",
   "devDependencies": {

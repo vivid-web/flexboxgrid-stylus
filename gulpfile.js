@@ -37,7 +37,7 @@ function distCss() {
     .pipe(rename(directories.stylus.output.fileName))
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest(directories.stylus.output.folder));
-};
+}
 
 function distMinify() {
   return gulp
@@ -52,7 +52,7 @@ function distMinify() {
     .pipe(rename(directories.minify.output.fileName))
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest(directories.minify.output.folder));
-};
+}
 
 var build = gulp.series(gulp.parallel(distCss, distMinify));
 

@@ -34,7 +34,7 @@ import '@vivid-web/flexboxgrid-stylus';
 
 Or you can load it in using Stylus.
 ```stylus
-@import "~@vivid-web/flexbox-grid-stylus"
+@import "~@vivid-web/flexboxgrid-stylus"
 ```
 
 ## Authors ##

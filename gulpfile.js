@@ -37,7 +37,7 @@ function distCss() {
     .pipe(rename(directories.stylus.output.fileName))
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest(directories.stylus.output.folder));
-};
+}
 
 function distMinify() {
   return gulp

@@ -37,7 +37,7 @@
   "author": "Vivid Websolutions <info@vivid-websolutions.nl>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vivid-web/flexbox-grid-stylus/issues"
+    "url": "https://github.com/vivid-web/flexboxgrid-stylus/issues"
   },
   "homepage": "http://flexboxgrid.vivid-websolutions.nl",
   "devDependencies": {

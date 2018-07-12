@@ -1,6 +1,6 @@
 {
   "name": "@vivid-web/flexboxgrid-stylus",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description": "A simple flexbox CSS grid system",
   "main": "dist/flexboxgrid.css",
   "publishConfig": {
